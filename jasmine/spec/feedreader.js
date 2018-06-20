@@ -56,7 +56,7 @@ $(function () {
     /* TODO: Write a new test suite named "The menu" */
 
     describe('The Menu', function () {
-        /* This test ensures the menu element is
+        /* This test ensures that the menu element is
          * hidden by default. 
          */
         it('sould be hidden by default', function () {
@@ -64,7 +64,7 @@ $(function () {
         });
 
 
-        /* This test ensures the menu changes
+        /* This test ensures that the menu changes
          * visibility when the menu icon is clicked. This test
          * should have two expectations: does the menu display when
          * clicked and does it hide when clicked again.
@@ -84,7 +84,7 @@ $(function () {
     /* TODO: Write a new test suite named "Initial Entries" */
 
     describe('Initial Enteries', function () {
-        /* TODO: Write a test that ensures when the loadFeed
+        /* This test ensures that when the loadFeed
          * function is called and completes its work, there is at least
          * a single .entry element within the .feed container.
          * Remember, loadFeed() is asynchronous so this test will require
@@ -108,7 +108,7 @@ $(function () {
     /* TODO: Write a new test suite named "New Feed Selection" */
 
     describe('New Feed Selection', function () {
-        /* TODO: Write a test that ensures when a new feed is loaded
+        /* This test ensures taht when a new feed is loaded
          * by the loadFeed function that the content actually changes.
          * Remember, loadFeed() is asynchronous.
          */
